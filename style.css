@@ -1,0 +1,478 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header-main {
+  height: 75px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+}
+.header-right {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+#hamburger-box {
+}
+#hamburger {
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  margin: 15px;
+}
+#logo {
+  margin: 15px;
+  background-image: url(https://www.zoomcar.com/build/98e56e8b0b91e8806885a22ac2bf69a7.png);
+  background-repeat: no-repeat;
+  font-size: 0;
+  height: 40px;
+  width: 182px;
+  display: block;
+}
+#host-button,
+#login {
+  margin-top: 15px;
+  padding: 15px;
+}
+#login {
+  margin-right: 10px;
+}
+.zlogo {
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 50px;
+  background-image: url(https://www.zoomcar.com/build/e222e7ff96ffdd76290118718d52d71f.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  padding-left: 46.4px;
+  flex-shrink: 0;
+}
+#investor {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 0px;
+  margin-top: 25px;
+}
+option {
+  border: none;
+}
+.loginB {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+#announcement {
+  background-color: rgb(16, 163, 16);
+  text-align: center;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#announcementLink {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+#announcementLink:hover {
+  text-decoration: underline;
+}
+#selection-Tab {
+  background-image: url(https://www.zoomcar.com/img/web_banner_compressed.webp);
+  background-position: center center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 500px inset;
+  height: 500px;
+  padding: 40px 20px 0px 20px;
+  height: 380px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+}
+#heading-sel {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#subHeading-sel {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#user-inputs {
+  margin: auto;
+  margin-top: 50px;
+  width: 1000px;
+  height: 60px;
+  background-color: white;
+  border-radius: 40px;
+  border: none;
+  overflow: hidden;
+  justify-content: space-between;
+  display: flex;
+}
+#green-button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  width: 20%;
+  height: 100%;
+  background-color: rgb(16, 163, 16);
+}
+#selectText {
+  height: 100%;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  border-right: solid 2px gray;
+}
+#selectDate {
+  height: 100%;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#statBG {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(41, 41, 41);
+}
+#stats {
+  height: 100%;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+#stat-box {
+  text-align: centers;
+  align-items: center;
+}
+#top-text-S {
+  text-align: centers;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+#bottom-text-S {
+  display: flex;
+  justify-content: center;
+  text-align: centers;
+  color: white;
+  font-size: 15px;
+}
+#setup {
+  width: 100vw;
+  height: 350px;
+  background-color: rgb(245, 245, 245);
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+#inner-setup {
+  width: 1200px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+#setup-boxes {
+  width: 300px;
+}
+#inner-text-box {
+  padding-top: 50px;
+}
+#setup-image {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#image-box {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 11px 0 #acacac;
+}
+#image-box img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+#setup-text {
+  margin-top: 50px;
+  font-size: 20px;
+}
+#tips-box {
+  margin-top: 50px;
+  display: flex;
+  height: 200px;
+  width: 1200px;
+  margin-left: 300px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+#lover-tips {
+  max-width: 200px;
+  height: 200px;
+  text-align: left;
+}
+#inner-text-box1 {
+  padding: 15px;
+  max-width: 250px;
+  height: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(168, 168, 168);
+}
+#places-near-u {
+  align-items: center;
+  margin: auto;
+
+  width: 1500px;
+}
+#text-b {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#lover-tips {
+  margin-top: 10px;
+}
+#text-nb {
+  margin-top: 10px;
+}
+#populer-placesT {
+  text-align: center;
+  color: rgb(102, 102, 102);
+  font-size: 20px;
+  padding: 25px;
+}
+#accordian-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+#places-sel {
+  border: gray solid 1px;
+  height: 30px;
+}
+
+#card {
+  max-width: 300px;
+  height: 400px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+#cards-section {
+  display: flex;
+  overflow: hidden;
+}
+#top-o-card img {
+  width: 170px;
+  height: auto;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#green-box {
+  background-color: rgb(243, 248, 243);
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  height: 150px;
+}
+#card-name {
+  padding-top: 20px;
+}
+#about {
+  width: 100vw;
+  background-color: rgb(56, 56, 56);
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#about > * {
+  color: white;
+}
+#sub-about {
+  width: 1800px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+#about-upper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+#about-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#about-lower > * {
+  margin-left: 20px;
+  text-align: left;
+  width: 1750px;
+}
+#about-lower p {
+  line-height: 1.5;
+}
+#about-lower p {
+  margin-top: 20px;
+}
+#about-lower h2 {
+  margin-top: 20px;
+}
+
+#list-of-citys-top {
+  width: 100vw;
+  background-color: rgb(102, 102, 102);
+  color: white;
+}
+
+#list-of-citys-sub {
+  padding-top: 65px;
+  width: 1800px;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-new-location-countries-india-cities {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-new-location-countries-india-cities-city-link {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-new-location-countries-india-cities-city {
+  padding-top: 20px;
+  font-size: 15px;
+}
+#international-cities {
+  margin-top: 30px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+#list-title {
+  margin-top: 20px;
+}
+#icons-con {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+#never-S {
+  width: 40%;
+}
+#never-stop {
+  font-size: 60px;
+  color: rgb(163, 163, 163);
+  width: 200px;
+  font-weight: bold;
+}
+#sicon {
+  font-size: 40px;
+}
+#qr-con {
+  padding-top: 50px;
+  display: flex;
+  width: 1800px;
+  margin: auto;
+  justify-content: space-between;
+  border-bottom: solid 2px white;
+}
+#qr-box {
+  display: flex;
+  width: 60%;
+}
+.footer-new-copyright {
+  padding: 24px 84px;
+  color: rgb(168, 168, 168);
+}
+.footer-new-copyright {
+  display: block;
+  unicode-bidi: isolate;
+}
+.underline {
+  border-bottom: 3px solid white;
+}
+#transparent-hover-screen {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+/* CSS for the message */
+#message-container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.message {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#message1 {
+  border-right: 2px white solid;
+  width: 20%;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+#message2 {
+  width: 80%;
+  height: 100vh;
+}
